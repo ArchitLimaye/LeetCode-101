@@ -7,7 +7,6 @@
 
 Given an integer `x`, return `true` if `x` is a palindrome, and `false` otherwise.
 
-A palindrome is a number that reads the same forward and backward.
 
 ### Example
 
@@ -40,18 +39,18 @@ If both strings were the same, the number was a palindrome.
 
 **Space Complexity:** `O(log x)`
 
-[View Brute Force Solution](./Brute_Force.py)
+[String reversal Solution](./String%20Reversal%20Approach.py)
 
 ---
 
-### 2. Optimal Solution
+### 2. Mathematical Approach
 
 **Approach:**  
-Instead of converting the number into a string, I reversed only half of the number.
+I reversed the number using mathematical approach using Arithmetic Operators like modulo(%) and Floor Division (//).
 
-I used `% 10` to get the last digit and `// 10` to remove the last digit. The extracted digits were stored in `reversed_half`.
+I used `% 10` to get the last digit and `// 10` to remove the last digit. The extracted digits were stored in `rev`.
 
-Once half of the number was reversed, I compared it with the remaining half.
+Once the reversed num was saved in `rev` variable I compared it with the `num_copy` which stored the num at the start and returned thier comparision .
 
 For numbers with an odd number of digits, the middle digit can be ignored while comparing the two halves.
 
@@ -59,4 +58,4 @@ For numbers with an odd number of digits, the middle digit can be ignored while 
 
 **Space Complexity:** `O(1)`
 
-[View Optimal Solution](./Optimal_Solution.py)
+[View Optimal Solution](./Mathematical%20Approach.py)
