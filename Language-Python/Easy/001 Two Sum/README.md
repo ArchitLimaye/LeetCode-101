@@ -24,7 +24,7 @@ Output:
 
 ## Different Approaches Used
 
-### 1. Brute Force
+### 1. Using Nested Loops
 
 **Approach:**  
 Using nested loops, I compared each element with the other elements in the list. If the sum of two elements matched the target, I returned their indices.
@@ -37,7 +37,7 @@ Using nested loops, I compared each element with the other elements in the list.
 
 ---
 
-### 2. Optimal Solution
+### 2. Using HashMap
 
 **Approach:**  
 Using a HashMap (Python dictionary), I stored all the elements that I had already seen along with their indices.
