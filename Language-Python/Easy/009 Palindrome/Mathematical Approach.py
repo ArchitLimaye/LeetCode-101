@@ -8,5 +8,19 @@ def isPalindrome(num):
         num//=10
 
     return num_copy == rev
-num=int(input("Please enter a number to check if its a palindrome:"))
-print(num,"Shows Palindrom Pattern:",isPalindrome(num))
+#Test Cases
+test_cases = [
+    1221,
+    10,
+    -123,
+    12321,
+    111
+
+]
+print("``````Test Cases```````")
+count=1
+for nums in test_cases:
+    print("Input:", nums)
+    print("Output:", isPalindrome(nums))
+    print("-" * 30,"Test Case:",count)
+    count+=1
