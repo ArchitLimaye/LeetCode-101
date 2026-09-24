@@ -33,7 +33,7 @@ Using nested loops, I compared each element with the other elements in the list.
 
 **Space Complexity:** `O(1)`
 
-[View Brute Force Solution](./nested Loop Approach.py)
+[View Brute Force Solution] (./Nested Loop Approach.py)
 
 ---
 
@@ -50,4 +50,4 @@ If the difference was found, I returned the index of the current element and the
 
 **Space Complexity:** `O(n)`
 
-[View Optimal Solution](./HashMap Approach.py)
+[View Optimal Solution] (./HashMap Approach.py)
