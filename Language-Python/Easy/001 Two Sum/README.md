@@ -33,7 +33,7 @@ Using nested loops, I compared each element with the other elements in the list.
 
 **Space Complexity:** `O(1)`
 
-[View Brute Force Solution](https://github.com/ArchitLimaye/LeetCode-101/blob/main/Language-Python/Easy/001%20Two%20Sum/Solution.py)
+[View Brute Force Solution](./Brute_Force.py)
 
 ---
 
@@ -50,4 +50,4 @@ If the difference was found, I returned the index of the current element and the
 
 **Space Complexity:** `O(n)`
 
-[View Optimal Solution](https://github.com/ArchitLimaye/LeetCode-101/blob/main/Language-Python/Easy/001%20Two%20Sum/Optimal_Solution.py)
+[View Optimal Solution](./Optimal_Solution.py)
