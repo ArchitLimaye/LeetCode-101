@@ -1,4 +1,4 @@
-def RoamnToInteger(rmn):
+def RomnToInteger(rmn):
     char=False
     sum=0
     for i in range(len(rmn)-1,-1,-1):
@@ -44,5 +44,18 @@ def RoamnToInteger(rmn):
             else:
                 sum+=1000
     return sum
-print(RoamnToInteger("MCMXCIV"))
+#Test Cases
+test_cases = [
+    "III",
+    "VI",
+    "IV",
+    "LVIII",
+    "MCMXCIV"
+]
+count=1
+for rmn in test_cases:
+    print("Input:", rmn)
+    print("Output:", RomnToInteger(rmn))
+    print("-" * 30,"Test Case:",count)
+    count+=1
 

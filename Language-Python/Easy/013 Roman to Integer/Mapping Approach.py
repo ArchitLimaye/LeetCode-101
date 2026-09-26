@@ -20,5 +20,18 @@ def RomanToInteger(rmn):
         previous=current
 
     return sum
+#Test Cases
+test_cases = [
+    "III",
+    "VI",
+    "IV",
+    "LVIII",
+    "MCMXCIV"
+]
+count=1
+for rmn in test_cases:
+    print("Input:", rmn)
+    print("Output:", RomanToInteger(rmn))
+    print("-" * 30,"Test Case:",count)
+    count+=1
 
-print(RomanToInteger("LVIII"))
